@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target":"ESNext",
+        "removeComments": true,
+        "watch": true,
+        "outFile":"script.js"
+    },
+    "files": ["script.ts"],
+    "exclude": ["node_modules"],
+    "compileOnSave": true
+}

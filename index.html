@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-block">
+            <form name="user" class="form">
+                <div class="login-wrapper">
+                    <h3>Login</h3>
+                    <input type="text" class="input login" placeholder="Enter login">
+                </div>
+                <div class="password-wrapper">
+                    <h3>Password</h3>
+                    <input type="password" class="input password" placeholder="Enter password">
+                </div>
+                <div class="email-wrapper">
+                    <h3>Email address</h3>
+                    <input type="text" class="input email" placeholder="Enter email">
+                </div>
+                <input type="button" class="btn add-btn-form" value="Add user" disabled>
+                <input type="button" class="btn edit-btn-form hide" value="Edit user" disabled>
+            </form>
+        </div>
+        <div class="right-block">
+            <table id="table">
+                <thead class="head">
+                    <tr class="thead">
+                        <th class="index">#</th>
+                        <th class="user-login">Login</th>
+                        <th class="user-password">Password</th>
+                        <th class="user-email">Email</th>
+                        <th class="user-edit">Edit</th>
+                        <th class="user-delete">Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
